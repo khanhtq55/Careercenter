@@ -44,7 +44,7 @@ $( window ).load(function() {
 
 
 
-	
+    
 	$("input, textarea, select").keyup(function() { 
 		$(this).css('border-color',''); 
         $('.alert').slideUp();
