@@ -44,7 +44,7 @@ $( window ).load(function() {
 
 
 
-	$("form.pixfort-form").on( "submit", function( event ) {
+	//$("form.pixfort-form").on( "submit", function( event ) {
         event.preventDefault();
         var values = {};
         var temp_str = "";
