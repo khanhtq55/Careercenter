@@ -41,17 +41,6 @@ $( window ).load(function() {
         }
 	});
 
-
-
-
-
-	$("input, textarea, select").keyup(function() { 
-		$(this).css('border-color',''); 
-        $('.alert').slideUp();
-    });
-
-
-
     $('.pix-countdown').each(function(){
         var self = $(this);
         var endDate = $(this).attr('data-date');
